@@ -1,0 +1,1424 @@
+[{
+	"attributes": {
+		"azimuth": 91.47,
+		"elevation": 30.67,
+		"friendly_name": "Nap\u00e1ll\u00e1s",
+		"next_dawn": "2018-05-27T02:05:42+00:00",
+		"next_dusk": "2018-05-26T18:54:18+00:00",
+		"next_midnight": "2018-05-26T22:30:41+00:00",
+		"next_noon": "2018-05-26T10:30:30+00:00",
+		"next_rising": "2018-05-27T02:44:09+00:00",
+		"next_setting": "2018-05-26T18:16:00+00:00"
+	},
+	"entity_id": "sun.sun",
+	"last_changed": "2018-05-26T02:45:02.531717+00:00",
+	"last_updated": "2018-05-26T06:01:30.518786+00:00",
+	"state": "above_horizon"
+}, {
+	"attributes": {
+		"friendly_name": "Haj\u00f3 16",
+		"hidden": true,
+		"icon": "mdi:home",
+		"latitude": 47.5362755,
+		"longitude": 21.6207889,
+		"radius": 100
+	},
+	"entity_id": "zone.home",
+	"last_changed": "2018-05-12T04:57:58.783302+00:00",
+	"last_updated": "2018-05-12T04:57:58.783302+00:00",
+	"state": "zoning"
+}, {
+	"attributes": {
+		"friendly_name": "Csak H\u00e9tk\u00f6znap",
+		"icon": "mdi:calendar"
+	},
+	"entity_id": "input_boolean.alarmweekday",
+	"last_changed": "2018-05-12T04:57:58.994511+00:00",
+	"last_updated": "2018-05-12T04:57:58.994511+00:00",
+	"state": "on"
+}, {
+	"attributes": {
+		"friendly_name": "Perc",
+		"icon": "mdi:clock",
+		"max": 59.0,
+		"min": 0.0,
+		"mode": "box",
+		"step": 5.0
+	},
+	"entity_id": "input_number.alarmminutes",
+	"last_changed": "2018-05-12T04:57:58.995370+00:00",
+	"last_updated": "2018-05-12T04:57:58.995370+00:00",
+	"state": "30.0"
+}, {
+	"attributes": {
+		"friendly_name": "\u00d3ra",
+		"icon": "mdi:timer",
+		"max": 23.0,
+		"min": 0.0,
+		"mode": "box",
+		"step": 1.0
+	},
+	"entity_id": "input_number.alarmhour",
+	"last_changed": "2018-05-12T04:57:58.996005+00:00",
+	"last_updated": "2018-05-12T04:57:58.996005+00:00",
+	"state": "6.0"
+}, {
+	"attributes": {
+		"entity_id": ["group.idojaras_summary_view", "media_player.lg_tv_remote", "group.vilagitas_view", "group.device_tracker_view", "media_player.nappali", "group.klima_view", "group.alarmclock_view"],
+		"friendly_name": "default_view",
+		"hidden": true,
+		"icon": "mdi:home",
+		"order": 0,
+		"view": true
+	},
+	"entity_id": "group.default_view",
+	"last_changed": "2018-05-12T04:57:59.192584+00:00",
+	"last_updated": "2018-05-12T04:57:59.192584+00:00",
+	"state": "on"
+}, {
+	"attributes": {
+		"friendly_name": "Szenzor probl\u00e9ma",
+		"icon": "mdi:alert-octagon"
+	},
+	"entity_id": "binary_sensor.bejarat_szenzor_serult",
+	"last_changed": "2018-05-12T04:57:58.997665+00:00",
+	"last_updated": "2018-05-12T04:57:58.997665+00:00",
+	"state": "off"
+}, {
+	"attributes": {
+		"friendly_name": "Bej\u00e1rat z\u00e1rva",
+		"icon": "mdi:door"
+	},
+	"entity_id": "binary_sensor.bejarat_zarva",
+	"last_changed": "2018-05-26T05:56:33.285747+00:00",
+	"last_updated": "2018-05-26T05:56:33.285747+00:00",
+	"state": "on"
+}, {
+	"attributes": {
+		"friendly_name": "Mozg\u00e1s a folyos\u00f3n",
+		"icon": "mdi:human-male"
+	},
+	"entity_id": "binary_sensor.bejarat_mozgas",
+	"last_changed": "2018-05-26T05:58:27.236219+00:00",
+	"last_updated": "2018-05-26T05:58:27.236219+00:00",
+	"state": "off"
+}, {
+	"attributes": {
+		"friendly_name": "Holdf\u00e1zis",
+		"icon": "mdi:brightness-3"
+	},
+	"entity_id": "sensor.moon",
+	"last_changed": "2018-05-22T22:00:13.584910+00:00",
+	"last_updated": "2018-05-22T22:00:13.584910+00:00",
+	"state": "Waxing gibbous"
+}, {
+	"attributes": {
+		"friendly_name": "Id\u0151"
+	},
+	"entity_id": "sensor.alarm_time",
+	"last_changed": "2018-05-12T04:58:32.748461+00:00",
+	"last_updated": "2018-05-12T04:58:32.748461+00:00",
+	"state": "06:30"
+}, {
+	"attributes": {
+		"friendly_name": "Date & Time",
+		"icon": "mdi:calendar-clock"
+	},
+	"entity_id": "sensor.date__time",
+	"last_changed": "2018-05-26T06:02:01.529418+00:00",
+	"last_updated": "2018-05-26T06:02:01.529418+00:00",
+	"state": "2018-05-26, 08:02"
+}, {
+	"attributes": {
+		"friendly_name": "D\u00e1tum",
+		"icon": "mdi:calendar"
+	},
+	"entity_id": "sensor.date",
+	"last_changed": "2018-05-25T22:00:00.549768+00:00",
+	"last_updated": "2018-05-25T22:00:00.549768+00:00",
+	"state": "2018-05-26"
+}, {
+	"attributes": {
+		"friendly_name": "Time & Date",
+		"icon": "mdi:calendar-clock"
+	},
+	"entity_id": "sensor.time__date",
+	"last_changed": "2018-05-26T06:02:01.532653+00:00",
+	"last_updated": "2018-05-26T06:02:01.532653+00:00",
+	"state": "08:02, 2018-05-26"
+}, {
+	"attributes": {
+		"friendly_name": "Time (UTC)",
+		"icon": "mdi:clock"
+	},
+	"entity_id": "sensor.time_utc",
+	"last_changed": "2018-05-26T06:02:01.522689+00:00",
+	"last_updated": "2018-05-26T06:02:01.522689+00:00",
+	"state": "06:02"
+}, {
+	"attributes": {
+		"friendly_name": "Pontos Id\u0151",
+		"icon": "mdi:watch"
+	},
+	"entity_id": "sensor.time",
+	"last_changed": "2018-05-26T06:02:01.526072+00:00",
+	"last_updated": "2018-05-26T06:02:01.526072+00:00",
+	"state": "08:02"
+}, {
+	"attributes": {
+		"entity_id": ["binary_sensor.bejarat_mozgas", "binary_sensor.bejarat_zarva", "binary_sensor.bejarat_szenzor_serult"],
+		"friendly_name": "Bej\u00e1rati Ajt\u00f3",
+		"order": 1
+	},
+	"entity_id": "group.bejarat_view",
+	"last_changed": "2018-05-26T05:56:32.446126+00:00",
+	"last_updated": "2018-05-26T05:56:32.446126+00:00",
+	"state": "on"
+}, {
+	"attributes": {
+		"entity_id": ["device_tracker.18f0e4319c1c", "device_tracker.64db438cb745", "device_tracker.7c9122be8024", "device_tracker.84b541a0de04", "device_tracker.9cd21e3544a1", "device_tracker.android3cd8b8e068642fd8", "device_tracker.android5308b2aba12266fc", "device_tracker.android67af261e93c426c7", "device_tracker.android722e38c758800854", "device_tracker.androidcfc4dfe908e02ff6", "device_tracker.botigalaxys8", "device_tracker.cc25ef113d0c", "device_tracker.e0c7671a3799", "device_tracker.e4b3180b21e7", "device_tracker.f4f5dbf9f10f", "device_tracker.galaxya52016", "device_tracker.hflpt220", "device_tracker.iphone", "device_tracker.iphone_2", "device_tracker.krisztiiphoneja", "device_tracker.trgy1978", "device_tracker.windowsphon", "device_tracker.eszti", "device_tracker.zsokanokia8"],
+		"friendly_name": "Otthon L\u00e9v\u0151",
+		"order": 2
+	},
+	"entity_id": "group.device_tracker_view",
+	"last_changed": "2018-05-24T08:46:59.102385+00:00",
+	"last_updated": "2018-05-24T08:46:59.102385+00:00",
+	"state": "home"
+}, {
+	"attributes": {
+		"entity_id": ["switch.nappali_lampa", "light.furdo_level", "light.halo_level"],
+		"friendly_name": "Vil\u00e1g\u00edt\u00e1s",
+		"order": 3
+	},
+	"entity_id": "group.vilagitas_view",
+	"last_changed": "2018-05-17T09:14:18.559501+00:00",
+	"last_updated": "2018-05-17T09:14:18.559501+00:00",
+	"state": "on"
+}, {
+	"attributes": {
+		"entity_id": ["switch.nappali_ventilator"],
+		"friendly_name": "Klimatiz\u00e1l\u00e1s",
+		"order": 4
+	},
+	"entity_id": "group.klima_view",
+	"last_changed": "2018-05-12T04:57:59.417897+00:00",
+	"last_updated": "2018-05-12T04:57:59.417897+00:00",
+	"state": "off"
+}, {
+	"attributes": {
+		"entity_id": ["sensor.speedtest_ping", "sensor.speedtest_download", "sensor.speedtest_upload", "sensor.average_load_1m", "sensor.average_load_5m", "sensor.average_load_15m", "sensor.ssl_cert_expiry"],
+		"friendly_name": "Rendszer Adatok",
+		"order": 5
+	},
+	"entity_id": "group.rendszer_view",
+	"last_changed": "2018-05-12T04:57:59.152131+00:00",
+	"last_updated": "2018-05-12T04:57:59.152131+00:00",
+	"state": "unknown"
+}, {
+	"attributes": {
+		"entity_id": ["group.aktualis_idojaras_view", "group.forcast_view"],
+		"friendly_name": "Id\u0151j\u00e1r\u00e1s",
+		"hidden": true,
+		"icon": "mdi:weather-partlycloudy",
+		"order": 6,
+		"view": true
+	},
+	"entity_id": "group.idojaras_view",
+	"last_changed": "2018-05-12T04:57:59.159986+00:00",
+	"last_updated": "2018-05-12T04:57:59.159986+00:00",
+	"state": "unknown"
+}, {
+	"attributes": {
+		"entity_id": ["sensor.season", "sensor.date", "sensor.time", "sensor.pws_weather", "sensor.ajto_temperature", "sensor.pws_temp_c", "sensor.pws_temp_high_1d_c", "sensor.pws_temp_low_1d_c", "sensor.pws_precip_1d_mm", "sensor.pws_precip_1d", "sensor.waqi_debrecen_hajnal_u_debrecen_hungary", "sensor.pws_wind_kph", "sensor.pws_wind_1d_kph", "sensor.pws_pressure_mb", "sensor.pws_relative_humidity", "sensor.pws_alerts", "sun.sun", "sensor.moon", "sensor.ajto_luminance"],
+		"friendly_name": "Aktu\u00e1lis id\u0151j\u00e1r\u00e1s",
+		"order": 7
+	},
+	"entity_id": "group.aktualis_idojaras_view",
+	"last_changed": "2018-05-12T04:57:59.163133+00:00",
+	"last_updated": "2018-05-12T04:57:59.163133+00:00",
+	"state": "unknown"
+}, {
+	"attributes": {
+		"entity_id": ["zwave.zwaveme_razberry_controller_2016_zwave", "zwave.ajto", "zwave.halo", "zwave.furdo", "light.furdo_level", "light.halo_level", "binary_sensor.ajto_sensor", "binary_sensor.bejarat_mozgas", "binary_sensor.bejarat_szenzor_serult", "binary_sensor.bejarat_zarva", "group.bejarat_view"],
+		"friendly_name": "Z-Wave Eszk\u00f6z\u00f6k",
+		"hidden": true,
+		"icon": "mdi:wifi",
+		"order": 8,
+		"view": true
+	},
+	"entity_id": "group.zwave_view",
+	"last_changed": "2018-05-25T16:00:55.639440+00:00",
+	"last_updated": "2018-05-25T16:00:55.639440+00:00",
+	"state": "on"
+}, {
+	"attributes": {
+		"entity_id": ["group.all_automations", "group.rendszer_view"],
+		"friendly_name": "Automatiz\u00e1ci\u00f3",
+		"hidden": true,
+		"icon": "mdi:robot",
+		"order": 9,
+		"view": true
+	},
+	"entity_id": "group.automation_view",
+	"last_changed": "2018-05-12T04:58:33.524236+00:00",
+	"last_updated": "2018-05-12T04:58:33.524236+00:00",
+	"state": "on"
+}, {
+	"attributes": {
+		"entity_id": ["sensor.pws_weather_1d_metric", "sensor.pws_weather_1n_metric", "sensor.pws_weather_2d_metric", "sensor.pws_weather_2n_metric", "sensor.pws_weather_3d_metric", "sensor.pws_weather_3n_metric", "sensor.pws_weather_4d_metric", "sensor.pws_weather_4n_metric"],
+		"friendly_name": "El\u0151rejelz\u00e9s",
+		"order": 10
+	},
+	"entity_id": "group.forcast_view",
+	"last_changed": "2018-05-12T04:57:59.183281+00:00",
+	"last_updated": "2018-05-12T04:57:59.183281+00:00",
+	"state": "unknown"
+}, {
+	"attributes": {
+		"entity_id": ["automation.ebreszto_bekapcsolva", "sensor.alarm_time", "input_number.alarmhour", "input_number.alarmminutes", "input_boolean.alarmweekday"],
+		"friendly_name": "\u00c9breszt\u0151",
+		"order": 11
+	},
+	"entity_id": "group.alarmclock_view",
+	"last_changed": "2018-05-12T04:57:59.186859+00:00",
+	"last_updated": "2018-05-12T04:57:59.186859+00:00",
+	"state": "on"
+}, {
+	"attributes": {
+		"entity_id": ["sensor.pws_weather_1d_metric", "sensor.pws_temp_c", "sensor.ajto_temperature", "sensor.pws_alerts"],
+		"friendly_name": "Id\u0151j\u00e1r\u00e1s \u00d6sszefoglal\u00f3",
+		"order": 12
+	},
+	"entity_id": "group.idojaras_summary_view",
+	"last_changed": "2018-05-12T04:57:59.195322+00:00",
+	"last_updated": "2018-05-12T04:57:59.195322+00:00",
+	"state": "unknown"
+}, {
+	"attributes": {
+		"entity_id": ["automation.ebreszto_bekapcsolva", "automation.folyoso_vilagitas", "automation.folyoso_vilagitas_ki", "automation.set_day_theme", "automation.set_night_theme", "automation.ssl_certificate_expiry_notification", "binary_sensor.ajto_sensor", "binary_sensor.bejarat_mozgas", "binary_sensor.bejarat_szenzor_serult", "binary_sensor.bejarat_zarva", "device_tracker.1008c1312a2a", "device_tracker.64db438cb745", "device_tracker.7c9122be8024", "device_tracker.84b541a0de04", "device_tracker.9cd21e3544a1", "device_tracker.android3cd8b8e068642fd8", "device_tracker.android722e38c758800854", "device_tracker.botigalaxys8", "device_tracker.cc25ef113d0c", "device_tracker.e0c7671a3799", "device_tracker.e4b3180b21e7", "device_tracker.galaxya52016", "device_tracker.iphone", "device_tracker.iphone_2", "device_tracker.krisztiiphoneja", "device_tracker.windowsphone", "device_tracker.zsokagalaxya3", "input_boolean.alarmweekday", "input_number.alarmhour", "input_number.alarmminutes", "light.furdo_level", "light.halo_level", "media_player.lg_tv_remote", "media_player.nappali", "script.1504987938225", "sensor.ajto_access_control", "sensor.ajto_alarm_level", "sensor.ajto_alarm_type", "sensor.ajto_burglar", "sensor.ajto_luminance", "sensor.ajto_sourcenodeid", "sensor.ajto_temperature", "sensor.alarm_time", "sensor.average_load_15m", "sensor.average_load_1m", "sensor.average_load_5m", "sensor.date", "sensor.date__time", "sensor.moon", "sensor.pws_alerts", "sensor.pws_precip_1d", "sensor.pws_precip_1d_mm", "sensor.pws_pressure_mb", "sensor.pws_relative_humidity", "sensor.pws_temp_c", "sensor.pws_temp_high_1d_c", "sensor.pws_temp_low_1d_c", "sensor.pws_weather", "sensor.pws_wind_1d_kph", "sensor.pws_wind_kph", "sensor.speedtest_download", "sensor.speedtest_ping", "sensor.speedtest_upload", "sensor.ssl_cert_expiry", "sensor.time", "sensor.time__date", "sensor.time_utc", "sensor.waqi_debrecen_hajnal_u_debrecen_hungary", "sensor.waqi_debrecen_kalotaszeg_ter_debrecen_hungary", "sensor.waqi_debrecen_klinika_debrecen_hungary", "sun.sun", "switch.nappali_lampa", "switch.nappali_ventilator", "zone.home", "zwave.ajto", "zwave.furdo", "zwave.halo", "zwave.zwaveme_razberry_controller_2016_zwave"],
+		"friendly_name": "minden",
+		"hidden": true,
+		"icon": "mdi:all-inclusive",
+		"order": 13,
+		"view": true
+	},
+	"entity_id": "group.all_view",
+	"last_changed": "2018-05-12T04:57:59.199377+00:00",
+	"last_updated": "2018-05-12T04:57:59.199377+00:00",
+	"state": "on"
+}, {
+	"attributes": {
+		"friendly_name": "\u00c9breszt\u0151",
+		"last_triggered": null
+	},
+	"entity_id": "script.1504987938225",
+	"last_changed": "2018-05-12T04:57:59.258594+00:00",
+	"last_updated": "2018-05-12T04:57:59.258594+00:00",
+	"state": "off"
+}, {
+	"attributes": {
+		"friendly_name": "Setup",
+		"last_triggered": null
+	},
+	"entity_id": "script.1512569270109",
+	"last_changed": "2018-05-12T04:57:59.259941+00:00",
+	"last_updated": "2018-05-12T04:57:59.259941+00:00",
+	"state": "off"
+}, {
+	"attributes": {
+		"auto": true,
+		"entity_id": ["script.1512569270109", "script.1504987938225"],
+		"friendly_name": "all scripts",
+		"hidden": true,
+		"order": 14
+	},
+	"entity_id": "group.all_scripts",
+	"last_changed": "2018-05-12T04:57:59.336323+00:00",
+	"last_updated": "2018-05-12T04:57:59.336323+00:00",
+	"state": "off"
+}, {
+	"attributes": {
+		"friendly_name": "Nappali L\u00e1mpa",
+		"icon": "mdi:lamp"
+	},
+	"entity_id": "switch.nappali_lampa",
+	"last_changed": "2018-05-17T17:25:28.936300+00:00",
+	"last_updated": "2018-05-17T17:25:28.936300+00:00",
+	"state": "on"
+}, {
+	"attributes": {
+		"friendly_name": "Nappali Ventil\u00e1tor",
+		"icon": "mdi:fan"
+	},
+	"entity_id": "switch.nappali_ventilator",
+	"last_changed": "2018-05-12T04:57:59.412325+00:00",
+	"last_updated": "2018-05-12T04:57:59.412325+00:00",
+	"state": "off"
+}, {
+	"attributes": {
+		"auto": true,
+		"entity_id": ["switch.nappali_lampa", "switch.nappali_ventilator"],
+		"friendly_name": "all switches",
+		"hidden": true,
+		"order": 15
+	},
+	"entity_id": "group.all_switches",
+	"last_changed": "2018-05-17T17:25:28.942565+00:00",
+	"last_updated": "2018-05-17T17:25:28.942565+00:00",
+	"state": "on"
+}, {
+	"attributes": {
+		"attribution": "Data provided by the WUnderground weather service",
+		"friendly_name": "P\u00e1ratartalom",
+		"icon": "mdi:water",
+		"unit_of_measurement": "%"
+	},
+	"entity_id": "sensor.pws_relative_humidity",
+	"last_changed": "2018-05-26T05:53:02.542477+00:00",
+	"last_updated": "2018-05-26T05:53:02.542477+00:00",
+	"state": "77"
+}, {
+	"attributes": {
+		"attribution": "Data provided by the WUnderground weather service",
+		"date": "Last Updated on M\u00e1jus 26, 7:55 AM CEST",
+		"entity_picture": "https://icons.wxug.com/i/c/k/clear.gif",
+		"friendly_name": "Id\u0151j\u00e1r\u00e1s"
+	},
+	"entity_id": "sensor.pws_weather",
+	"last_changed": "2018-05-26T03:12:58.541947+00:00",
+	"last_updated": "2018-05-26T05:58:12.546762+00:00",
+	"state": "Der\u00fclt"
+}, {
+	"attributes": {
+		"attribution": "Data provided by the WUnderground weather service",
+		"date": "2018 M\u00e1jus 26 07:00 PM (CEST id&#337;z\u00f3na)",
+		"friendly_name": "Maximum H\u0151m\u00e9rs\u00e9klet",
+		"icon": "mdi:format-vertical-align-top",
+		"unit_of_measurement": "\u00b0C"
+	},
+	"entity_id": "sensor.pws_temp_high_1d_c",
+	"last_changed": "2018-05-26T05:37:33.531179+00:00",
+	"last_updated": "2018-05-26T05:37:33.531179+00:00",
+	"state": "28"
+}, {
+	"attributes": {
+		"attribution": "Data provided by the WUnderground weather service",
+		"date": "6:45 AM CEST",
+		"entity_picture": "https://icons.wxug.com/i/c/k/partlycloudy.gif",
+		"friendly_name": "Szombat",
+		"icon": "mdi:gauge"
+	},
+	"entity_id": "sensor.pws_weather_1d_metric",
+	"last_changed": "2018-05-26T05:37:33.577478+00:00",
+	"last_updated": "2018-05-26T05:37:33.577478+00:00",
+	"state": "Helyenk\u00e9nt felh\u0151s. Forr\u00f3. A legmagasabb h\u0151m\u00e9rs\u00e9klet 28\u00b0C. Szelek Ny\u00c9Ny \u00e9s v\u00e1ltoz\u00e9kony."
+}, {
+	"attributes": {
+		"attribution": "Data provided by the WUnderground weather service",
+		"date": "Last Updated on M\u00e1jus 26, 7:55 AM CEST",
+		"friendly_name": "K\u00fcls\u0151 H\u0151m\u00e9rs\u00e9klet",
+		"icon": "mdi:thermometer",
+		"unit_of_measurement": "\u00b0C"
+	},
+	"entity_id": "sensor.pws_temp_c",
+	"last_changed": "2018-05-26T05:57:44.157838+00:00",
+	"last_updated": "2018-05-26T05:57:44.157838+00:00",
+	"state": "20.4"
+}, {
+	"attributes": {
+		"attribution": "Data provided by the WUnderground weather service",
+		"date": "6:45 AM CEST",
+		"entity_picture": "https://icons.wxug.com/i/c/k/nt_partlycloudy.gif",
+		"friendly_name": "Szombat \u00e9jszaka",
+		"icon": "mdi:gauge"
+	},
+	"entity_id": "sensor.pws_weather_1n_metric",
+	"last_changed": "2018-05-26T05:37:33.543911+00:00",
+	"last_updated": "2018-05-26T05:37:33.543911+00:00",
+	"state": "Helyenk\u00e9nt felh\u0151s. A legalacsonyabb h\u0151m\u00e9rs\u00e9klet 16\u00b0C. Szelek \u00c9\u00c9K \u00e9s v\u00e1ltoz\u00e9kony."
+}, {
+	"attributes": {
+		"attribution": "Data provided by the WUnderground weather service",
+		"date": "2018 M\u00e1jus 26 07:00 PM (CEST id&#337;z\u00f3na)",
+		"friendly_name": "Minimum H\u0151m\u00e9rs\u00e9klet",
+		"icon": "mdi:format-vertical-align-bottom",
+		"unit_of_measurement": "\u00b0C"
+	},
+	"entity_id": "sensor.pws_temp_low_1d_c",
+	"last_changed": "2018-05-26T05:37:33.551329+00:00",
+	"last_updated": "2018-05-26T05:37:33.551329+00:00",
+	"state": "16"
+}, {
+	"attributes": {
+		"attribution": "Data provided by the WUnderground weather service",
+		"date": "6:45 AM CEST",
+		"entity_picture": "https://icons.wxug.com/i/c/k/chancetstorms.gif",
+		"friendly_name": "Vas\u00e1rnap",
+		"icon": "mdi:gauge"
+	},
+	"entity_id": "sensor.pws_weather_2d_metric",
+	"last_changed": "2018-05-26T05:37:33.588862+00:00",
+	"last_updated": "2018-05-26T05:37:33.588862+00:00",
+	"state": "D\u00e9lut\u00e1n kialakul\u00f3 zivatarok. Forr\u00f3. A legmagasabb h\u0151m\u00e9rs\u00e9klet 28\u00b0C. Szelek \u00c9K \u00e9s v\u00e1ltoz\u00e9kony. Es\u0151 val\u00f3sz\u00edn\u0171s\u00e9ge 60%."
+}, {
+	"attributes": {
+		"attribution": "Data provided by the WUnderground weather service",
+		"date": "2018 M\u00e1jus 26 07:00 PM (CEST id&#337;z\u00f3na)",
+		"friendly_name": "Csapad\u00e9k Val\u00f3sz\u00edn\u0171s\u00e9g",
+		"icon": "mdi:weather-lightning-rainy",
+		"unit_of_measurement": "%"
+	},
+	"entity_id": "sensor.pws_precip_1d",
+	"last_changed": "2018-05-26T05:37:33.573720+00:00",
+	"last_updated": "2018-05-26T05:37:33.573720+00:00",
+	"state": "20"
+}, {
+	"attributes": {
+		"attribution": "Data provided by the WUnderground weather service",
+		"date": "6:45 AM CEST",
+		"entity_picture": "https://icons.wxug.com/i/c/k/nt_partlycloudy.gif",
+		"friendly_name": "Vas\u00e1rnap \u00e9jszaka",
+		"icon": "mdi:gauge"
+	},
+	"entity_id": "sensor.pws_weather_2n_metric",
+	"last_changed": "2018-05-26T05:37:33.585100+00:00",
+	"last_updated": "2018-05-26T05:37:33.585100+00:00",
+	"state": "Helyenk\u00e9nt felh\u0151s. A legalacsonyabb h\u0151m\u00e9rs\u00e9klet 15\u00b0C. Szelek \u00c9K \u00e9s v\u00e1ltoz\u00e9kony."
+}, {
+	"attributes": {
+		"attribution": "Data provided by the WUnderground weather service",
+		"date": "2018 M\u00e1jus 26 07:00 PM (CEST id&#337;z\u00f3na)",
+		"friendly_name": "Csapad\u00e9k Mennyis\u00e9g",
+		"icon": "mdi:weather-rainy",
+		"unit_of_measurement": "mm"
+	},
+	"entity_id": "sensor.pws_precip_1d_mm",
+	"last_changed": "2018-05-26T05:37:04.899963+00:00",
+	"last_updated": "2018-05-26T05:37:04.899963+00:00",
+	"state": "0"
+}, {
+	"attributes": {
+		"attribution": "Data provided by the WUnderground weather service",
+		"date": "6:45 AM CEST",
+		"entity_picture": "https://icons.wxug.com/i/c/k/chancetstorms.gif",
+		"friendly_name": "H\u00e9tf\u0151",
+		"icon": "mdi:gauge"
+	},
+	"entity_id": "sensor.pws_weather_3d_metric",
+	"last_changed": "2018-05-26T05:37:33.581298+00:00",
+	"last_updated": "2018-05-26T05:37:33.581298+00:00",
+	"state": "D\u00e9lel\u0151tti zivatarokkal. Forr\u00f3. A legmagasabb h\u0151m\u00e9rs\u00e9klet 28\u00b0C. Szelek K\u00c9K \u00e9s v\u00e1ltoz\u00e9kony. Es\u0151 val\u00f3sz\u00edn\u0171s\u00e9ge 40%."
+}, {
+	"attributes": {
+		"attribution": "Data provided by the WUnderground weather service",
+		"date": "Last Updated on M\u00e1jus 26, 7:55 AM CEST",
+		"friendly_name": "Pillanatnyi Sz\u00e9lsebess\u00e9g",
+		"icon": "mdi:weather-windy",
+		"unit_of_measurement": "kph"
+	},
+	"entity_id": "sensor.pws_wind_kph",
+	"last_changed": "2018-05-26T05:42:43.544983+00:00",
+	"last_updated": "2018-05-26T05:58:12.530717+00:00",
+	"state": "0"
+}, {
+	"attributes": {
+		"attribution": "Data provided by the WUnderground weather service",
+		"date": "6:45 AM CEST",
+		"entity_picture": "https://icons.wxug.com/i/c/k/nt_tstorms.gif",
+		"friendly_name": "H\u00e9tf\u0151 \u00e9jszaka",
+		"icon": "mdi:gauge"
+	},
+	"entity_id": "sensor.pws_weather_3n_metric",
+	"last_changed": "2018-05-26T05:37:33.535051+00:00",
+	"last_updated": "2018-05-26T05:37:33.535051+00:00",
+	"state": "K\u00e9s\u0151 \u00e9jszakai \u00f3r\u00e1kban zivatar. A legalacsonyabb h\u0151m\u00e9rs\u00e9klet 16\u00b0C. Sz\u00e9ler\u0151ss\u00e9g K 10 \u00e9s 15 km/h k\u00f6z\u00f6tti. Es\u0151 val\u00f3sz\u00edn\u0171s\u00e9ge 40%."
+}, {
+	"attributes": {
+		"attribution": "Data provided by the WUnderground weather service",
+		"date": "2018 M\u00e1jus 26 07:00 PM (CEST id&#337;z\u00f3na)",
+		"friendly_name": "\u00c1tlag Sz\u00e9lsebess\u00e9g",
+		"icon": "mdi:weather-windy",
+		"unit_of_measurement": "kph"
+	},
+	"entity_id": "sensor.pws_wind_1d_kph",
+	"last_changed": "2018-05-26T05:37:33.558665+00:00",
+	"last_updated": "2018-05-26T05:37:33.558665+00:00",
+	"state": "5"
+}, {
+	"attributes": {
+		"attribution": "Data provided by the WUnderground weather service",
+		"date": "6:45 AM CEST",
+		"entity_picture": "https://icons.wxug.com/i/c/k/chancetstorms.gif",
+		"friendly_name": "Kedd",
+		"icon": "mdi:gauge"
+	},
+	"entity_id": "sensor.pws_weather_4d_metric",
+	"last_changed": "2018-05-26T05:37:33.562556+00:00",
+	"last_updated": "2018-05-26T05:37:33.562556+00:00",
+	"state": "D\u00e9lel\u0151tti zivatarokkal. A legmagasabb h\u0151m\u00e9rs\u00e9klet 28\u00b0C. Sz\u00e9ler\u0151ss\u00e9g K 10 \u00e9s 15 km/h k\u00f6z\u00f6tti. Es\u0151 val\u00f3sz\u00edn\u0171s\u00e9ge 50%."
+}, {
+	"attributes": {
+		"Date": "2018-05-25 01:59:36 GMT",
+		"Date_FLO": "2018-05-26 01:59:35 GMT",
+		"Date_WRN": "2018-05-25 18:31:33 GMT",
+		"Description": "Potential disruption due to rain from 11PM CEST FRI until 11:59PM CEST FRI",
+		"Description_FLO": "Potential disruption due to rain from 11PM CEST SAT until 11:59PM CEST SAT",
+		"Description_WRN": "Potential disruption due to thunderstorms from 12AM CEST SAT until 10:59PM CEST SAT",
+		"Expires": "2018-05-25 21:59:00 GMT",
+		"Expires_FLO": "2018-05-26 21:59:00 GMT",
+		"Expires_WRN": "2018-05-26 20:59:00 GMT",
+		"Message": "Potential disruption due to rain from 11PM CEST FRI until 11:59PM CEST FRI)",
+		"Message_FLO": "Potential disruption due to rain from 11PM CEST SAT until 11:59PM CEST SAT)",
+		"Message_WRN": "Potential disruption due to thunderstorms from 12AM CEST SAT until 10:59PM CEST SAT)",
+		"attribution": "Data provided by the WUnderground weather service",
+		"friendly_name": "Riaszt\u00e1sok Sz\u00e1ma",
+		"icon": "mdi:alert"
+	},
+	"entity_id": "sensor.pws_alerts",
+	"last_changed": "2018-05-25T08:53:16.348233+00:00",
+	"last_updated": "2018-05-26T00:53:32.538334+00:00",
+	"state": "2"
+}, {
+	"attributes": {
+		"attribution": "Data provided by the WUnderground weather service",
+		"date": "6:45 AM CEST",
+		"entity_picture": "https://icons.wxug.com/i/c/k/nt_clear.gif",
+		"friendly_name": "Kedd \u00e9jszaka",
+		"icon": "mdi:gauge"
+	},
+	"entity_id": "sensor.pws_weather_4n_metric",
+	"last_changed": "2018-05-26T05:37:33.525112+00:00",
+	"last_updated": "2018-05-26T05:37:33.525112+00:00",
+	"state": "T\u00falnyom\u00f3an der\u00fclt. A legalacsonyabb h\u0151m\u00e9rs\u00e9klet 15\u00b0C. Sz\u00e9ler\u0151ss\u00e9g K\u00c9K 10 \u00e9s 15 km/h k\u00f6z\u00f6tti."
+}, {
+	"attributes": {
+		"attribution": "Data provided by the WUnderground weather service",
+		"date": "Last Updated on M\u00e1jus 26, 7:55 AM CEST",
+		"friendly_name": "L\u00e9gnyom\u00e1s",
+		"icon": "mdi:face",
+		"unit_of_measurement": "mb"
+	},
+	"entity_id": "sensor.pws_pressure_mb",
+	"last_changed": "2018-05-26T04:04:37.529123+00:00",
+	"last_updated": "2018-05-26T05:58:12.541254+00:00",
+	"state": "1020"
+}, {
+	"attributes": {
+		"auto": true,
+		"entity_id": ["device_tracker.android722e38c758800854", "device_tracker.androidcfc4dfe908e02ff6", "device_tracker.f4f5dbf9f10f", "device_tracker.iphone_2", "device_tracker.zsokanokia8", "device_tracker.e4b3180b21e7", "device_tracker.cc25ef113d0c", "device_tracker.64db438cb745", "device_tracker.eszti", "device_tracker.84b541a0de04", "device_tracker.windowsphone", "device_tracker.hudeblt54md0n2", "device_tracker.e0c7671a3799", "device_tracker.iphone", "device_tracker.18f0e4319c1c", "device_tracker.galaxya52016", "device_tracker.android67af261e93c426c7", "device_tracker.krisztiiphoneja", "device_tracker.9cd21e3544a1", "device_tracker.botigalaxys8", "device_tracker.trgy1978", "device_tracker.android3cd8b8e068642fd8", "device_tracker.hflpt220"],
+		"friendly_name": "all devices",
+		"hidden": true,
+		"order": 16
+	},
+	"entity_id": "group.all_devices",
+	"last_changed": "2018-05-24T08:46:59.106878+00:00",
+	"last_updated": "2018-05-24T08:46:59.106878+00:00",
+	"state": "home"
+}, {
+	"attributes": {
+		"friendly_name": "Kl\u00edma Show",
+		"id": "1512523888016",
+		"last_triggered": null
+	},
+	"entity_id": "automation.klima_show",
+	"last_changed": "2018-05-12T04:58:32.763061+00:00",
+	"last_updated": "2018-05-12T04:58:32.763061+00:00",
+	"state": "on"
+}, {
+	"attributes": {
+		"friendly_name": "\u00c9breszt\u0151 Bekapcsolva",
+		"last_triggered": "2018-03-14T05:30:01.341948+00:00"
+	},
+	"entity_id": "automation.ebreszto_bekapcsolva",
+	"last_changed": "2018-05-12T04:58:14.958450+00:00",
+	"last_updated": "2018-05-12T04:58:14.958450+00:00",
+	"state": "off"
+}, {
+	"attributes": {
+		"friendly_name": "Set Night Theme",
+		"id": "1504976063745",
+		"last_triggered": "2018-05-25T18:14:53.343808+00:00"
+	},
+	"entity_id": "automation.set_night_theme",
+	"last_changed": "2018-05-12T04:58:32.771149+00:00",
+	"last_updated": "2018-05-25T18:14:53.344292+00:00",
+	"state": "on"
+}, {
+	"attributes": {
+		"friendly_name": "Alarm",
+		"id": "1512521419293",
+		"last_triggered": "2018-05-17T16:42:35.475220+00:00"
+	},
+	"entity_id": "automation.alarm",
+	"last_changed": "2018-05-12T04:58:32.773116+00:00",
+	"last_updated": "2018-05-17T16:42:35.475719+00:00",
+	"state": "on"
+}, {
+	"attributes": {
+		"friendly_name": "Setup",
+		"id": "1512569246195",
+		"last_triggered": "2018-03-16T21:49:25.926372+00:00"
+	},
+	"entity_id": "automation.setup",
+	"last_changed": "2018-05-12T04:58:32.778622+00:00",
+	"last_updated": "2018-05-12T04:58:32.778622+00:00",
+	"state": "on"
+}, {
+	"attributes": {
+		"friendly_name": "Set Day Theme",
+		"id": "1504975748657",
+		"last_triggered": "2018-05-26T02:45:01.563957+00:00"
+	},
+	"entity_id": "automation.set_day_theme",
+	"last_changed": "2018-05-12T04:58:32.781803+00:00",
+	"last_updated": "2018-05-26T02:45:01.564448+00:00",
+	"state": "on"
+}, {
+	"attributes": {
+		"friendly_name": "Folyos\u00f3 Vil\u00e1g\u00edt\u00e1s ki",
+		"hidden": false,
+		"id": "1501954558713",
+		"last_triggered": "2018-05-26T06:00:27.552015+00:00"
+	},
+	"entity_id": "automation.folyoso_vilagitas_ki",
+	"last_changed": "2018-05-12T04:58:32.783914+00:00",
+	"last_updated": "2018-05-26T06:00:27.552480+00:00",
+	"state": "on"
+}, {
+	"attributes": {
+		"friendly_name": "Folyos\u00f3 Vil\u00e1g\u00edt\u00e1s",
+		"hidden": false,
+		"id": "1501954497732",
+		"last_triggered": "2018-05-26T05:58:07.350719+00:00"
+	},
+	"entity_id": "automation.folyoso_vilagitas",
+	"last_changed": "2018-05-12T04:58:32.785965+00:00",
+	"last_updated": "2018-05-26T05:58:07.351257+00:00",
+	"state": "on"
+}, {
+	"attributes": {
+		"friendly_name": "Kl\u00edma Hide",
+		"id": "1512523777550",
+		"last_triggered": "2018-03-16T21:49:25.869823+00:00"
+	},
+	"entity_id": "automation.klima_hide",
+	"last_changed": "2018-05-12T04:58:32.787956+00:00",
+	"last_updated": "2018-05-12T04:58:32.787956+00:00",
+	"state": "on"
+}, {
+	"attributes": {
+		"entity_picture": "https://www.gravatar.com/avatar/a080e99bff566106cf6af05d5e4d54b4.jpg?s=80&d=wavatar",
+		"friendly_name": "Boti",
+		"scanner": "TomatoDeviceScanner",
+		"source_type": "router"
+	},
+	"entity_id": "device_tracker.botigalaxys8",
+	"last_changed": "2018-05-18T15:42:55.583927+00:00",
+	"last_updated": "2018-05-18T15:42:55.583927+00:00",
+	"state": "not_home"
+}, {
+	"attributes": {
+		"entity_picture": "https://www.gravatar.com/avatar/9b7c24976aa8ed2a7f772196381ecd60.jpg?s=80&d=wavatar",
+		"friendly_name": "Zs\u00f3ka",
+		"gps_accuracy": 0,
+		"latitude": 47.5362755,
+		"longitude": 21.6207889,
+		"scanner": "TomatoDeviceScanner",
+		"source_type": "router"
+	},
+	"entity_id": "device_tracker.zsokanokia8",
+	"last_changed": "2018-05-24T08:46:59.097308+00:00",
+	"last_updated": "2018-05-24T08:46:59.097308+00:00",
+	"state": "home"
+}, {
+	"attributes": {
+		"entity_picture": "local/zs\u00f3kan\u00e9ni.jpg",
+		"friendly_name": "Zs\u00f3ka n\u00e9ni",
+		"gps_accuracy": 0,
+		"latitude": 47.5362755,
+		"longitude": 21.6207889,
+		"scanner": "TomatoDeviceScanner",
+		"source_type": "router"
+	},
+	"entity_id": "device_tracker.android3cd8b8e068642fd8",
+	"last_changed": "2018-05-25T08:20:11.388572+00:00",
+	"last_updated": "2018-05-25T08:20:11.388572+00:00",
+	"state": "home"
+}, {
+	"attributes": {
+		"friendly_name": "e4b3180b21e7",
+		"hidden": true,
+		"source_type": null
+	},
+	"entity_id": "device_tracker.e4b3180b21e7",
+	"last_changed": "2018-05-12T04:58:15.015230+00:00",
+	"last_updated": "2018-05-12T04:58:15.015230+00:00",
+	"state": "not_home"
+}, {
+	"attributes": {
+		"friendly_name": "Jutka N\u00e9ni",
+		"hidden": true,
+		"source_type": null
+	},
+	"entity_id": "device_tracker.windowsphone",
+	"last_changed": "2018-05-12T04:58:15.020701+00:00",
+	"last_updated": "2018-05-12T04:58:15.020701+00:00",
+	"state": "not_home"
+}, {
+	"attributes": {
+		"auto": true,
+		"entity_id": ["automation.alarm", "automation.folyoso_vilagitas", "automation.folyoso_vilagitas_ki", "automation.klima_hide", "automation.klima_show", "automation.set_day_theme", "automation.set_night_theme", "automation.setup", "automation.ebreszto_bekapcsolva"],
+		"friendly_name": "all automations",
+		"hidden": false,
+		"order": 17
+	},
+	"entity_id": "group.all_automations",
+	"last_changed": "2018-05-12T04:58:33.231250+00:00",
+	"last_updated": "2018-05-12T04:58:33.231250+00:00",
+	"state": "on"
+}, {
+	"attributes": {
+		"friendly_name": "Imre b\u00e1csi",
+		"hidden": true,
+		"source_type": null
+	},
+	"entity_id": "device_tracker.64db438cb745",
+	"last_changed": "2018-05-12T04:58:15.025890+00:00",
+	"last_updated": "2018-05-12T04:58:15.025890+00:00",
+	"state": "not_home"
+}, {
+	"attributes": {
+		"friendly_name": "Erich",
+		"hidden": true,
+		"source_type": null
+	},
+	"entity_id": "device_tracker.android722e38c758800854",
+	"last_changed": "2018-05-12T04:58:15.029597+00:00",
+	"last_updated": "2018-05-12T04:58:15.029597+00:00",
+	"state": "not_home"
+}, {
+	"attributes": {
+		"friendly_name": "Orsi",
+		"hidden": true,
+		"source_type": null
+	},
+	"entity_id": "device_tracker.iphone",
+	"last_changed": "2018-05-12T04:58:15.035942+00:00",
+	"last_updated": "2018-05-12T04:58:15.035942+00:00",
+	"state": "not_home"
+}, {
+	"attributes": {
+		"friendly_name": "KrisztiiPhoneja",
+		"hidden": true,
+		"source_type": null
+	},
+	"entity_id": "device_tracker.krisztiiphoneja",
+	"last_changed": "2018-05-12T04:58:15.040139+00:00",
+	"last_updated": "2018-05-12T04:58:15.040139+00:00",
+	"state": "not_home"
+}, {
+	"attributes": {
+		"friendly_name": "e0c7671a3799",
+		"hidden": true,
+		"source_type": null
+	},
+	"entity_id": "device_tracker.e0c7671a3799",
+	"last_changed": "2018-05-12T04:58:15.043696+00:00",
+	"last_updated": "2018-05-12T04:58:15.043696+00:00",
+	"state": "not_home"
+}, {
+	"attributes": {
+		"friendly_name": "9cd21e3544a1",
+		"hidden": true,
+		"source_type": null
+	},
+	"entity_id": "device_tracker.9cd21e3544a1",
+	"last_changed": "2018-05-12T04:58:15.047259+00:00",
+	"last_updated": "2018-05-12T04:58:15.047259+00:00",
+	"state": "not_home"
+}, {
+	"attributes": {
+		"friendly_name": "Galaxy-A5-2016",
+		"hidden": true,
+		"source_type": null
+	},
+	"entity_id": "device_tracker.galaxya52016",
+	"last_changed": "2018-05-12T04:58:15.053073+00:00",
+	"last_updated": "2018-05-12T04:58:15.053073+00:00",
+	"state": "not_home"
+}, {
+	"attributes": {
+		"friendly_name": "iPhone",
+		"hidden": true,
+		"source_type": null
+	},
+	"entity_id": "device_tracker.iphone_2",
+	"last_changed": "2018-05-12T04:58:15.056655+00:00",
+	"last_updated": "2018-05-12T04:58:15.056655+00:00",
+	"state": "not_home"
+}, {
+	"attributes": {
+		"friendly_name": "84b541a0de04",
+		"hidden": true,
+		"source_type": null
+	},
+	"entity_id": "device_tracker.84b541a0de04",
+	"last_changed": "2018-05-12T04:58:15.060930+00:00",
+	"last_updated": "2018-05-12T04:58:15.060930+00:00",
+	"state": "not_home"
+}, {
+	"attributes": {
+		"friendly_name": "cc25ef113d0c",
+		"hidden": true,
+		"source_type": null
+	},
+	"entity_id": "device_tracker.cc25ef113d0c",
+	"last_changed": "2018-05-12T04:58:15.064341+00:00",
+	"last_updated": "2018-05-12T04:58:15.064341+00:00",
+	"state": "not_home"
+}, {
+	"attributes": {
+		"friendly_name": "Eszti",
+		"hidden": true,
+		"source_type": null
+	},
+	"entity_id": "device_tracker.eszti",
+	"last_changed": "2018-05-12T04:58:15.099056+00:00",
+	"last_updated": "2018-05-12T04:58:15.099056+00:00",
+	"state": "not_home"
+}, {
+	"attributes": {
+		"friendly_name": "android-cfc4dfe908e02ff6",
+		"hidden": true,
+		"source_type": null
+	},
+	"entity_id": "device_tracker.androidcfc4dfe908e02ff6",
+	"last_changed": "2018-05-12T04:58:15.102432+00:00",
+	"last_updated": "2018-05-12T04:58:15.102432+00:00",
+	"state": "not_home"
+}, {
+	"attributes": {
+		"friendly_name": "Anova",
+		"hidden": true,
+		"scanner": "TomatoDeviceScanner",
+		"source_type": "router"
+	},
+	"entity_id": "device_tracker.hflpt220",
+	"last_changed": "2018-05-18T18:47:20.068670+00:00",
+	"last_updated": "2018-05-18T18:47:20.068670+00:00",
+	"state": "not_home"
+}, {
+	"attributes": {
+		"friendly_name": "TRgy1978",
+		"hidden": true,
+		"source_type": null
+	},
+	"entity_id": "device_tracker.trgy1978",
+	"last_changed": "2018-05-12T04:58:15.109178+00:00",
+	"last_updated": "2018-05-12T04:58:15.109178+00:00",
+	"state": "not_home"
+}, {
+	"attributes": {
+		"friendly_name": "f4f5dbf9f10f",
+		"hidden": true,
+		"scanner": "TomatoDeviceScanner",
+		"source_type": "router"
+	},
+	"entity_id": "device_tracker.f4f5dbf9f10f",
+	"last_changed": "2018-05-23T12:14:10.975403+00:00",
+	"last_updated": "2018-05-23T12:14:10.975403+00:00",
+	"state": "not_home"
+}, {
+	"attributes": {
+		"friendly_name": "Jutka n\u00e9ni",
+		"hidden": true,
+		"source_type": null
+	},
+	"entity_id": "device_tracker.18f0e4319c1c",
+	"last_changed": "2018-05-12T04:58:15.113827+00:00",
+	"last_updated": "2018-05-12T04:58:15.113827+00:00",
+	"state": "not_home"
+}, {
+	"attributes": {
+		"friendly_name": "Annus",
+		"hidden": true,
+		"source_type": null
+	},
+	"entity_id": "device_tracker.android67af261e93c426c7",
+	"last_changed": "2018-05-12T04:58:15.116196+00:00",
+	"last_updated": "2018-05-12T04:58:15.116196+00:00",
+	"state": "not_home"
+}, {
+	"attributes": {
+		"friendly_name": "Load (5m)",
+		"icon": "mdi:memory",
+		"unit_of_measurement": " "
+	},
+	"entity_id": "sensor.load_5m",
+	"last_changed": "2018-05-26T06:01:52.534651+00:00",
+	"last_updated": "2018-05-26T06:01:52.534651+00:00",
+	"state": "0.31640625"
+}, {
+	"attributes": {
+		"friendly_name": "Load (15m)",
+		"icon": "mdi:memory",
+		"unit_of_measurement": " "
+	},
+	"entity_id": "sensor.load_15m",
+	"last_changed": "2018-05-26T06:01:52.523292+00:00",
+	"last_updated": "2018-05-26T06:01:52.523292+00:00",
+	"state": "0.1943359375"
+}, {
+	"attributes": {
+		"friendly_name": "Load (1m)",
+		"icon": "mdi:memory",
+		"unit_of_measurement": " "
+	},
+	"entity_id": "sensor.load_1m",
+	"last_changed": "2018-05-26T06:01:52.546585+00:00",
+	"last_updated": "2018-05-26T06:01:52.546585+00:00",
+	"state": "0.23095703125"
+}, {
+	"attributes": {
+		"attribution": "Data retrieved from Speedtest by Ookla",
+		"bytes_received": 50432035,
+		"bytes_sent": 35233792,
+		"friendly_name": "Speedtest Ping",
+		"icon": "mdi:speedometer",
+		"latency": 17.251,
+		"server_country": "Hungary",
+		"server_id": "3715",
+		"server_name": "Dunaujvaros",
+		"unit_of_measurement": "ms"
+	},
+	"entity_id": "sensor.speedtest_ping",
+	"last_changed": "2018-05-26T04:00:32.534864+00:00",
+	"last_updated": "2018-05-26T04:00:32.534864+00:00",
+	"state": "17.251"
+}, {
+	"attributes": {
+		"attribution": "Data retrieved from Speedtest by Ookla",
+		"bytes_received": 50432035,
+		"bytes_sent": 35233792,
+		"friendly_name": "Speedtest Download",
+		"icon": "mdi:speedometer",
+		"latency": 17.251,
+		"server_country": "Hungary",
+		"server_id": "3715",
+		"server_name": "Dunaujvaros",
+		"unit_of_measurement": "Mbit/s"
+	},
+	"entity_id": "sensor.speedtest_download",
+	"last_changed": "2018-05-26T04:00:32.547050+00:00",
+	"last_updated": "2018-05-26T04:00:32.547050+00:00",
+	"state": "39.42"
+}, {
+	"attributes": {
+		"attribution": "Data retrieved from Speedtest by Ookla",
+		"bytes_received": 50432035,
+		"bytes_sent": 35233792,
+		"friendly_name": "Speedtest Upload",
+		"icon": "mdi:speedometer",
+		"latency": 17.251,
+		"server_country": "Hungary",
+		"server_id": "3715",
+		"server_name": "Dunaujvaros",
+		"unit_of_measurement": "Mbit/s"
+	},
+	"entity_id": "sensor.speedtest_upload",
+	"last_changed": "2018-05-26T04:00:32.522083+00:00",
+	"last_updated": "2018-05-26T04:00:32.522083+00:00",
+	"state": "25.42"
+}, {
+	"attributes": {
+		"friendly_name": "\u00c9vszak",
+		"icon": "mdi:weather-cloudy"
+	},
+	"entity_id": "sensor.season",
+	"last_changed": "2018-05-12T04:58:19.870298+00:00",
+	"last_updated": "2018-05-12T04:58:19.870298+00:00",
+	"state": "spring"
+}, {
+	"attributes": {
+		"attribution": "Data provided by the World Air Quality Index project and Hungarian Air Quality Network (Ma\u010farsk\u00fd syst\u00e9m na meranie zne\u010distenia vzduchu)",
+		"co": 3,
+		"dominentpol": "pm10",
+		"friendly_name": "WAQI Debrecen Kalotaszeg t\u00e9r, Debrecen, Hungary",
+		"hidden": true,
+		"humidity": 79.5,
+		"icon": "mdi:cloud",
+		"nitrogen_dioxide": 13.1,
+		"ozone": 13,
+		"pm_10": 19,
+		"sulfur_dioxide": 2.1,
+		"temperature": 17.5,
+		"time": "2018-05-26 06:00:00",
+		"unit_of_measurement": "AQI",
+		"w": 1.2,
+		"wg": 13.3
+	},
+	"entity_id": "sensor.waqi_debrecen_kalotaszeg_ter_debrecen_hungary",
+	"last_changed": "2018-05-26T05:39:29.873476+00:00",
+	"last_updated": "2018-05-26T05:39:29.873476+00:00",
+	"state": "19"
+}, {
+	"attributes": {
+		"attribution": "Data provided by the World Air Quality Index project and Hungarian Air Quality Network (Ma\u010farsk\u00fd syst\u00e9m na meranie zne\u010distenia vzduchu)",
+		"co": 2,
+		"dominentpol": "o3",
+		"friendly_name": "WAQI Debrecen Klinika, Debrecen, Hungary",
+		"hidden": true,
+		"humidity": 79.5,
+		"icon": "mdi:cloud",
+		"nitrogen_dioxide": 3.8,
+		"ozone": 19.4,
+		"pm_10": 17,
+		"sulfur_dioxide": 3.4,
+		"temperature": 17.5,
+		"time": "2018-05-26 06:00:00",
+		"unit_of_measurement": "AQI",
+		"w": 1.2,
+		"wg": 13.3
+	},
+	"entity_id": "sensor.waqi_debrecen_klinika_debrecen_hungary",
+	"last_changed": "2018-05-26T05:24:26.768741+00:00",
+	"last_updated": "2018-05-26T05:34:28.814344+00:00",
+	"state": "19"
+}, {
+	"attributes": {
+		"attribution": "Data provided by the World Air Quality Index project and Hungarian Air Quality Network (Ma\u010farsk\u00fd syst\u00e9m na meranie zne\u010distenia vzduchu)",
+		"co": 3.7,
+		"dominentpol": "pm10",
+		"friendly_name": "Leveg\u0151 Min\u0151s\u00e9g",
+		"humidity": 79.5,
+		"icon": "mdi:airballoon",
+		"nitrogen_dioxide": 8.2,
+		"pm_10": 8,
+		"sulfur_dioxide": 2.6,
+		"temperature": 17.5,
+		"time": "2018-05-26 06:00:00",
+		"unit_of_measurement": "AQI",
+		"w": 1.2,
+		"wg": 13.3
+	},
+	"entity_id": "sensor.waqi_debrecen_hajnal_u_debrecen_hungary",
+	"last_changed": "2018-05-26T05:34:28.887678+00:00",
+	"last_updated": "2018-05-26T05:34:28.887678+00:00",
+	"state": "8"
+}, {
+	"attributes": {
+		"friendly_name": "Nappali",
+		"supported_features": 65471
+	},
+	"entity_id": "media_player.nappali",
+	"last_changed": "2018-05-25T11:55:56.359660+00:00",
+	"last_updated": "2018-05-25T11:55:56.359660+00:00",
+	"state": "off"
+}, {
+	"attributes": {
+		"friendly_name": "H\u00e1l\u00f3szoba TV",
+		"supported_features": 19769
+	},
+	"entity_id": "media_player.lg_tv_remote",
+	"last_changed": "2018-05-19T11:49:17.113595+00:00",
+	"last_updated": "2018-05-19T11:49:17.113595+00:00",
+	"state": "off"
+}, {
+	"attributes": {
+		"averageRequestRTT": 0,
+		"averageResponseRTT": 0,
+		"capabilities": ["staticUpdateController", "listening", "primaryController", "beaming"],
+		"friendly_name": "Z-Wave.Me RaZberry Controller 2016 ZWave+",
+		"hidden": false,
+		"is_awake": true,
+		"is_failed": false,
+		"is_info_received": true,
+		"is_ready": true,
+		"is_zwave_plus": false,
+		"lastRequestRTT": 0,
+		"lastResponseRTT": 0,
+		"manufacturer_name": "Z-Wave.Me",
+		"max_baud_rate": 40000,
+		"neighbors": [9, 10],
+		"node_id": 1,
+		"node_name": "Z-Wave.Me RaZberry Controller 2016 ZWave+",
+		"product_name": "RaZberry Controller 2016 ZWave+",
+		"query_stage": "Complete",
+		"receivedCnt": 0,
+		"receivedDups": 0,
+		"receivedTS": "2018-05-12 06:58:32:886 ",
+		"receivedUnsolicited": 0,
+		"retries": 0,
+		"sentCnt": 1,
+		"sentFailed": 0,
+		"sentTS": "2018-05-12 06:58:38:322 "
+	},
+	"entity_id": "zwave.zwaveme_razberry_controller_2016_zwave",
+	"last_changed": "2018-05-12T04:58:48.617619+00:00",
+	"last_updated": "2018-05-12T04:58:48.617619+00:00",
+	"state": "ready"
+}, {
+	"attributes": {
+		"averageRequestRTT": 20,
+		"averageResponseRTT": 30,
+		"capabilities": ["routing", "listening", "beaming"],
+		"friendly_name": "halo",
+		"is_awake": true,
+		"is_failed": false,
+		"is_info_received": true,
+		"is_ready": true,
+		"is_zwave_plus": true,
+		"lastRequestRTT": 20,
+		"lastResponseRTT": 30,
+		"manufacturer_name": "Zipato",
+		"max_baud_rate": 40000,
+		"neighbors": [1, 10],
+		"node_id": 8,
+		"node_name": "halo",
+		"product_name": "RGBW LED Bulb",
+		"query_stage": "Complete",
+		"receivedCnt": 139,
+		"receivedDups": 1,
+		"receivedTS": "2018-05-25 22:46:42:971 ",
+		"receivedUnsolicited": 4,
+		"retries": 0,
+		"sentCnt": 221,
+		"sentFailed": 3,
+		"sentTS": "2018-05-25 22:46:42:940 "
+	},
+	"entity_id": "zwave.halo",
+	"last_changed": "2018-05-13T18:41:56.604982+00:00",
+	"last_updated": "2018-05-25T20:46:43.085616+00:00",
+	"state": "ready"
+}, {
+	"attributes": {
+		"friendly_name": "H\u00e1l\u00f3szoba csill\u00e1r",
+		"icon": "mdi:hotel",
+		"node_id": 8,
+		"supported_features": 49,
+		"value_id": "72057594176962561",
+		"value_index": 0,
+		"value_instance": 1
+	},
+	"entity_id": "light.halo_level",
+	"last_changed": "2018-05-25T20:46:41.045746+00:00",
+	"last_updated": "2018-05-25T20:46:41.045746+00:00",
+	"state": "off"
+}, {
+	"attributes": {
+		"auto": true,
+		"entity_id": ["light.furdo_level", "light.halo_level"],
+		"friendly_name": "all lights",
+		"hidden": true,
+		"order": 18
+	},
+	"entity_id": "group.all_lights",
+	"last_changed": "2018-05-26T06:00:27.658360+00:00",
+	"last_updated": "2018-05-26T06:00:27.658360+00:00",
+	"state": "off"
+}, {
+	"attributes": {
+		"averageRequestRTT": 21,
+		"averageResponseRTT": 30,
+		"battery_level": 100,
+		"capabilities": ["routing", "beaming"],
+		"friendly_name": "ajto",
+		"is_awake": false,
+		"is_failed": false,
+		"is_info_received": true,
+		"is_ready": true,
+		"is_zwave_plus": true,
+		"lastRequestRTT": 22,
+		"lastResponseRTT": 30,
+		"manufacturer_name": "Philio Technology Corporation",
+		"max_baud_rate": 40000,
+		"neighbors": [1],
+		"node_id": 9,
+		"node_name": "ajto",
+		"product_name": "PST02-A 4 in 1 Multi-Sensor",
+		"query_stage": "Complete",
+		"receivedCnt": 15427,
+		"receivedDups": 10,
+		"receivedTS": "2018-05-26 07:58:27:060 ",
+		"receivedUnsolicited": 15417,
+		"retries": 0,
+		"sentCnt": 58,
+		"sentFailed": 2,
+		"sentTS": "2018-05-26 03:35:46:330 ",
+		"wake_up_interval": 86400
+	},
+	"entity_id": "zwave.ajto",
+	"last_changed": "2018-05-26T01:35:46.464981+00:00",
+	"last_updated": "2018-05-26T05:58:27.190540+00:00",
+	"state": "sleeping"
+}, {
+	"attributes": {
+		"friendly_name": "ajto Sensor",
+		"node_id": 9,
+		"value_id": "72057594193903616",
+		"value_index": 0,
+		"value_instance": 1
+	},
+	"entity_id": "binary_sensor.ajto_sensor",
+	"last_changed": "2018-05-12T04:58:36.489152+00:00",
+	"last_updated": "2018-05-12T04:58:36.489152+00:00",
+	"state": "off"
+}, {
+	"attributes": {
+		"friendly_name": "Bels\u0151 H\u0151m\u00e9rs\u00e9klet",
+		"icon": "mdi:temperature-celsius",
+		"node_id": 9,
+		"unit_of_measurement": "\u00b0C",
+		"value_id": "72057594193920018",
+		"value_index": 1,
+		"value_instance": 1
+	},
+	"entity_id": "sensor.ajto_temperature",
+	"last_changed": "2018-05-26T05:58:07.322851+00:00",
+	"last_updated": "2018-05-26T05:58:07.322851+00:00",
+	"state": "24.4"
+}, {
+	"attributes": {
+		"friendly_name": "F\u00e9nyer\u0151",
+		"node_id": 9,
+		"unit_of_measurement": "%",
+		"value_id": "72057594193920050",
+		"value_index": 3,
+		"value_instance": 1
+	},
+	"entity_id": "sensor.ajto_luminance",
+	"last_changed": "2018-05-26T05:58:07.306527+00:00",
+	"last_updated": "2018-05-26T05:58:07.306527+00:00",
+	"state": "7.0"
+}, {
+	"attributes": {
+		"friendly_name": "ajto Alarm Type",
+		"node_id": 9,
+		"unit_of_measurement": "",
+		"value_id": "72057594194968577",
+		"value_index": 0,
+		"value_instance": 1
+	},
+	"entity_id": "sensor.ajto_alarm_type",
+	"last_changed": "2018-05-26T05:58:27.194335+00:00",
+	"last_updated": "2018-05-26T05:58:27.194335+00:00",
+	"state": "0"
+}, {
+	"attributes": {
+		"friendly_name": "ajto Alarm Level",
+		"node_id": 9,
+		"unit_of_measurement": "",
+		"value_id": "72057594194968593",
+		"value_index": 1,
+		"value_instance": 1
+	},
+	"entity_id": "sensor.ajto_alarm_level",
+	"last_changed": "2018-05-26T05:58:27.200540+00:00",
+	"last_updated": "2018-05-26T05:58:27.200540+00:00",
+	"state": "0"
+}, {
+	"attributes": {
+		"friendly_name": "ajto SourceNodeId",
+		"node_id": 9,
+		"unit_of_measurement": "",
+		"value_id": "72057594194968609",
+		"value_index": 2,
+		"value_instance": 1
+	},
+	"entity_id": "sensor.ajto_sourcenodeid",
+	"last_changed": "2018-05-26T05:58:27.215194+00:00",
+	"last_updated": "2018-05-26T05:58:27.215194+00:00",
+	"state": "0"
+}, {
+	"attributes": {
+		"friendly_name": "ajto Access Control",
+		"node_id": 9,
+		"unit_of_measurement": "",
+		"value_id": "72057594194968721",
+		"value_index": 9,
+		"value_instance": 1
+	},
+	"entity_id": "sensor.ajto_access_control",
+	"last_changed": "2018-05-26T05:56:33.277648+00:00",
+	"last_updated": "2018-05-26T05:56:33.277648+00:00",
+	"state": "23"
+}, {
+	"attributes": {
+		"friendly_name": "ajto Burglar",
+		"node_id": 9,
+		"unit_of_measurement": "",
+		"value_id": "72057594194968737",
+		"value_index": 10,
+		"value_instance": 1
+	},
+	"entity_id": "sensor.ajto_burglar",
+	"last_changed": "2018-05-26T05:58:27.222427+00:00",
+	"last_updated": "2018-05-26T05:58:27.222427+00:00",
+	"state": "254"
+}, {
+	"attributes": {
+		"averageRequestRTT": 21,
+		"averageResponseRTT": 30,
+		"capabilities": ["routing", "listening", "beaming"],
+		"friendly_name": "furdo",
+		"is_awake": true,
+		"is_failed": true,
+		"is_info_received": true,
+		"is_ready": true,
+		"is_zwave_plus": true,
+		"lastRequestRTT": 21,
+		"lastResponseRTT": 30,
+		"manufacturer_name": "Zipato",
+		"max_baud_rate": 40000,
+		"neighbors": [8, 1, 9],
+		"node_id": 10,
+		"node_name": "furdo",
+		"product_name": "RGBW LED Bulb",
+		"query_stage": "Complete",
+		"receivedCnt": 4430,
+		"receivedDups": 84,
+		"receivedTS": "2018-05-25 13:13:20:715 ",
+		"receivedUnsolicited": 9,
+		"retries": 5,
+		"sentCnt": 7310,
+		"sentFailed": 14,
+		"sentTS": "2018-05-25 13:15:04:105 "
+	},
+	"entity_id": "zwave.furdo",
+	"last_changed": "2018-05-25T11:15:09.074035+00:00",
+	"last_updated": "2018-05-25T11:15:09.074035+00:00",
+	"state": "dead"
+}, {
+	"attributes": {
+		"friendly_name": "El\u0151szoba csill\u00e1r",
+		"icon": "mdi:human-male-female",
+		"node_id": 10,
+		"supported_features": 49,
+		"value_id": "72057594210516993",
+		"value_index": 0,
+		"value_instance": 1
+	},
+	"entity_id": "light.furdo_level",
+	"last_changed": "2018-05-26T06:00:27.649064+00:00",
+	"last_updated": "2018-05-26T06:00:27.649064+00:00",
+	"state": "off"
+}, {
+	"attributes": {
+		"friendly_name": "Update Available",
+		"release_notes": "https://www.home-assistant.io/blog/2018/04/27/release-68/#release-0681---april-30"
+	},
+	"entity_id": "updater.updater",
+	"last_changed": "2018-05-14T05:58:10.864418+00:00",
+	"last_updated": "2018-05-14T05:58:10.864418+00:00",
+	"state": "0.69.1"
+}, {
+	"attributes": {
+		"friendly_name": "HUDEBLT-54MD0N2",
+		"scanner": "TomatoDeviceScanner",
+		"source_type": "router"
+	},
+	"entity_id": "device_tracker.hudeblt54md0n2",
+	"last_changed": "2018-05-18T14:27:50.584334+00:00",
+	"last_updated": "2018-05-18T14:27:50.584334+00:00",
+	"state": "not_home"
+}]
